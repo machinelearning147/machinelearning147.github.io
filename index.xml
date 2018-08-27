@@ -6,10 +6,22 @@
     <description>Recent content on Shravan Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Aug 2018 11:14:01 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 00:13:57 +0530</lastBuildDate>
     
 	<atom:link href="https://machinelearning147.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Third Post</title>
+      <link>https://machinelearning147.github.io/vim-tips/</link>
+      <pubDate>Tue, 28 Aug 2018 00:13:57 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://machinelearning147.github.io/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My Second Post</title>
@@ -17,7 +29,7 @@
       <pubDate>Sat, 11 Aug 2018 11:14:01 +0530</pubDate>
       
       <guid>https://machinelearning147.github.io/posts/my-second-post/</guid>
-      <description>This is my second post with HUGO Preliminary # Import combinations with replacements from itertools from itertools import combinations_with_replacement Create a list of objects # Create a list of objects to combine list_of_objects = [&amp;#39;warplanes&amp;#39;, &amp;#39;armor&amp;#39;, &amp;#39;infantry&amp;#39;] Find all combinations (with replacement) for the list # Create an empty list object to hold the results of the loop combinations = [] # Create a loop for every item in the length of list_of_objects, that, for i in list(range(len(list_of_objects))): # Finds every combination (with replacement) for each object in the list combinations.</description>
+      <description>This is my second post with HUGO Preliminary # Import combinations with replacements from itertools from itertools import combinations_with_replacement  Create a list of objects # Create a list of objects to combine list_of_objects = [&#39;warplanes&#39;, &#39;armor&#39;, &#39;infantry&#39;]  Find all combinations (with replacement) for the list # Create an empty list object to hold the results of the loop combinations = [] # Create a loop for every item in the length of list_of_objects, that, for i in list(range(len(list_of_objects))): # Finds every combination (with replacement) for each object in the list combinations.</description>
     </item>
     
     <item>

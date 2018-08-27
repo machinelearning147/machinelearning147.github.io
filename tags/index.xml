@@ -10,5 +10,23 @@
 	<atom:link href="https://machinelearning147.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Tips</title>
+      <link>https://machinelearning147.github.io/tags/tips/</link>
+      <pubDate>Tue, 28 Aug 2018 00:13:57 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://machinelearning147.github.io/tags/vim/</link>
+      <pubDate>Tue, 28 Aug 2018 00:13:57 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
