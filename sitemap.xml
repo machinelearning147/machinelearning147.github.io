@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://machinelearning147.github.io/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/</loc>
+    <lastmod>2018-09-10T11:14:01+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://machinelearning147.github.io/vim-tips/</loc>
     <lastmod>2018-08-28T00:13:57+05:30</lastmod>
   </url>
@@ -28,13 +33,13 @@
   
   <url>
     <loc>https://machinelearning147.github.io/posts/</loc>
-    <lastmod>2018-08-28T00:13:57+05:30</lastmod>
+    <lastmod>2018-09-10T11:14:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://machinelearning147.github.io/</loc>
-    <lastmod>2018-08-28T00:13:57+05:30</lastmod>
+    <lastmod>2018-09-10T11:14:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   

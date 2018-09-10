@@ -6,10 +6,19 @@
     <description>Recent content on Shravan Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 00:13:57 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 11:14:01 +0530</lastBuildDate>
     
 	<atom:link href="https://machinelearning147.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Get set go with Tensorflow</title>
+      <link>https://machinelearning147.github.io/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/</link>
+      <pubDate>Mon, 10 Sep 2018 11:14:01 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/</guid>
+      <description>Pip installation !pip install tensorflow!pip install tensorflow-gpu  Anaconda Installation !conda install -c conda-forge tensorflow!conda install -c anaconda tensorflow-gpu  Basic Usage 1. Building the graph import tensorflow as tf matrix1 = tf.constant([[3., 3.]]) matrix2 = tf.constant([[2.],[2.]]) print(matrix1, matrix2) product = tf.matmul(matrix2, matrix1)  Tensor(&amp;quot;Const_4:0&amp;quot;, shape=(1, 2), dtype=float32) Tensor(&amp;quot;Const_5:0&amp;quot;, shape=(2, 1), dtype=float32)  2.Launching the graph in a session Method 1 # Launch the default graph. sess = tf.Session() result = sess.</description>
+    </item>
     
     <item>
       <title>My Third Post</title>
