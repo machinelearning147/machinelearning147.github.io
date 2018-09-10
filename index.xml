@@ -6,10 +6,23 @@
     <description>Recent content on Shravan Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Sep 2018 12:14:01 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 13:24:01 +0530</lastBuildDate>
     
 	<atom:link href="https://machinelearning147.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MNIST using GPU: Tesla K80 on ColabResearch</title>
+      <link>https://machinelearning147.github.io/posts/mnist_on_colaboratory_using_gpu/</link>
+      <pubDate>Mon, 10 Sep 2018 13:24:01 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/posts/mnist_on_colaboratory_using_gpu/</guid>
+      <description>MNIST using GPU: Tesla K80 on ColabResearch
+import required packages
+import tensorflow as tf sess = tf.InteractiveSession()  from tensorflow.python.client import device_lib  Check the devices: using&amp;gt; device_lib.list_local_devices()
+NOte: In order to make use of GPU: Runtime&amp;gt; Change runtime type&amp;gt; select GPU in Hardware Accelerator
+device_lib.list_local_devices()  [name: &amp;quot;/device:CPU:0&amp;quot; device_type: &amp;quot;CPU&amp;quot; memory_limit: 268435456 locality { } incarnation: 10739214734195363675, name: &amp;quot;/device:GPU:0&amp;quot; device_type: &amp;quot;GPU&amp;quot; memory_limit: 358350848 locality { bus_id: 1 } incarnation: 6782277748504694444 physical_device_desc: &amp;quot;device: 0, name: Tesla K80, pci bus id: 0000:00:04.</description>
+    </item>
     
     <item>
       <title>Visualizing Tensorflow Graphs</title>
@@ -66,19 +79,6 @@ Lists  Item 1
 I&amp;rsquo;m a reference-style link 1
 I&amp;rsquo;m a reference-style link 1
 Images Hold your pointer clicked over the image to expand the view.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://machinelearning147.github.io/posts/mnist_on_colaboratory_using_gpu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://machinelearning147.github.io/posts/mnist_on_colaboratory_using_gpu/</guid>
-      <description>MNIST using GPU: Tesla K80 on ColabResearch
-import required packages
-import tensorflow as tf sess = tf.InteractiveSession()  from tensorflow.python.client import device_lib  Check the devices: using&amp;gt; device_lib.list_local_devices()
-NOte: In order to make use of GPU: Runtime&amp;gt; Change runtime type&amp;gt; select GPU in Hardware Accelerator
-device_lib.list_local_devices()  [name: &amp;quot;/device:CPU:0&amp;quot; device_type: &amp;quot;CPU&amp;quot; memory_limit: 268435456 locality { } incarnation: 10739214734195363675, name: &amp;quot;/device:GPU:0&amp;quot; device_type: &amp;quot;GPU&amp;quot; memory_limit: 358350848 locality { bus_id: 1 } incarnation: 6782277748504694444 physical_device_desc: &amp;quot;device: 0, name: Tesla K80, pci bus id: 0000:00:04.</description>
     </item>
     
   </channel>
