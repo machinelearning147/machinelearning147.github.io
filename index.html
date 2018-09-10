@@ -40,7 +40,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-09-10T11:14:01&#43;05:30"/>
+<meta property="og:updated_time" content="2018-09-10T12:14:01&#43;05:30"/>
 
 
 
@@ -167,6 +167,30 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/visualizing&#43;tensorflow&#43;graphs/" class="color-inherit dim link">
+            Visualizing Tensorflow Graphs
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Using a local TensorBoard instance to visualize the graph import tensorflow as tf  Using a cloud-hosted TensorBoard instance to do the rendering # TensorFlow Graph visualizer code import numpy as np from IPython.display import clear_output, Image, display, HTML def strip_consts(graph_def, max_const_size=32): &quot;&quot;&quot;Strip large constant values from graph_def.&quot;&quot;&quot; strip_def = tf.GraphDef() for n0 in graph_def.node: n = strip_def.node.add() n.MergeFrom(n0) if n.op == 'Const': tensor = n.attr['value'].tensor size = len(tensor.tensor_content) if size &gt; max_const_size: tensor.
+        </div>
+          <a href="/posts/visualizing&#43;tensorflow&#43;graphs/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="color-inherit dim link">
             Get set go with Tensorflow
             </a>
@@ -210,30 +234,6 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-second-post/" class="color-inherit dim link">
-            My Second Post
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          This is my second post with HUGO Preliminary # Import combinations with replacements from itertools from itertools import combinations_with_replacement  Create a list of objects # Create a list of objects to combine list_of_objects = ['warplanes', 'armor', 'infantry']  Find all combinations (with replacement) for the list # Create an empty list object to hold the results of the loop combinations = [] # Create a loop for every item in the length of list_of_objects, that, for i in list(range(len(list_of_objects))): # Finds every combination (with replacement) for each object in the list combinations.
-        </div>
-          <a href="/posts/my-second-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
@@ -242,8 +242,20 @@
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/my-second-post/" class="link black dim">
+              My Second Post
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/my-first-post/" class="link black dim">
               My First Post
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/mnist_on_colaboratory_using_gpu/" class="link black dim">
+              
             </a>
           </h2>
         
