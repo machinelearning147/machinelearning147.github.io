@@ -57,7 +57,7 @@
 
 <meta itemprop="datePublished" content="2018-09-10T12:14:01&#43;05:30" />
 <meta itemprop="dateModified" content="2018-09-10T12:14:01&#43;05:30" />
-<meta itemprop="wordCount" content="1139">
+<meta itemprop="wordCount" content="1164">
 
 
 
@@ -150,12 +150,12 @@
 
     <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 
-<h1 id="using-a-local-tensorboard-instance-to-visualize-the-graph">Using a local TensorBoard instance to visualize the graph</h1>
+<h2 id="using-a-local-tensorboard-instance-to-visualize-the-graph">Using a local TensorBoard instance to visualize the graph</h2>
 
 <pre><code class="language-python">import tensorflow as tf
 </code></pre>
 
-<h1 id="using-a-cloud-hosted-tensorboard-instance-to-do-the-rendering">Using a cloud-hosted TensorBoard instance to do the rendering</h1>
+<h2 id="using-a-cloud-hosted-tensorboard-instance-to-do-the-rendering">Using a cloud-hosted TensorBoard instance to do the rendering</h2>
 
 <pre><code class="language-python"># TensorFlow Graph visualizer code
 import numpy as np
@@ -227,6 +227,8 @@ tf.summary.FileWriter(&quot;logs&quot;, g).close()
 
 </code></pre>
 
+<p>Simply call this to display the result. Unfortunately it doesn&rsquo;t save the output together with the Jupyter notebook, so we can only show a non-interactive image here.</p>
+
 <pre><code class="language-python">show_graph(g)
 </code></pre>
 
@@ -244,7 +246,7 @@ tf.summary.FileWriter(&quot;logs&quot;, g).close()
 &quot;&gt;&lt;/iframe&gt;
 </code></pre>
 
-<h1 id="name-scope-to-combine-a-set-of-operations">name_scope to combine a set of operations</h1>
+<h2 id="name-scope-to-combine-a-set-of-operations">name_scope to combine a set of operations</h2>
 
 <pre><code class="language-python">g = tf.Graph()
 
@@ -273,9 +275,10 @@ tf.summary.FileWriter(&quot;logs&quot;, g).close()
 
 </code></pre>
 
-<pre><code class="language-python"># Simply call this to display the result. Unfortunately it doesn't save the output together with
-# the Jupyter notebook, so we can only show a non-interactive image here.
-show_graph(g)
+<p>Simply call this to display the result. Unfortunately it doesn&rsquo;t save the output together with
+the Jupyter notebook, so we can only show a non-interactive image here.</p>
+
+<pre><code class="language-python">show_graph(g)
 </code></pre>
 
 <pre><code>    &lt;iframe seamless style=&quot;width:1200px;height:620px;border:0&quot; srcdoc=&quot;
