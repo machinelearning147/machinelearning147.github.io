@@ -40,7 +40,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-08-28T00:13:57&#43;05:30"/>
+<meta property="og:updated_time" content="2018-09-10T13:24:01&#43;05:30"/>
 
 
 
@@ -167,17 +167,18 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/vim-tips/" class="color-inherit dim link">
-            My Third Post
+          <a href="/posts/mnist_on_colaboratory_using_gpu/" class="color-inherit dim link">
+            MNIST using GPU: Tesla K80 on ColabResearch
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="vim-graphical-cheat-sheet">vim graphical cheat sheet</h2>
-
-<p><img src="/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg" alt="" />
-</p>
+          MNIST using GPU: Tesla K80 on ColabResearch
+import required packages
+import tensorflow as tf sess = tf.InteractiveSession()  from tensorflow.python.client import device_lib  Check the devices: using&gt; device_lib.list_local_devices()
+NOte: In order to make use of GPU: Runtime&gt; Change runtime type&gt; select GPU in Hardware Accelerator
+device_lib.list_local_devices()  [name: &quot;/device:CPU:0&quot; device_type: &quot;CPU&quot; memory_limit: 268435456 locality { } incarnation: 10739214734195363675, name: &quot;/device:GPU:0&quot; device_type: &quot;GPU&quot; memory_limit: 358350848 locality { bus_id: 1 } incarnation: 6782277748504694444 physical_device_desc: &quot;device: 0, name: Tesla K80, pci bus id: 0000:00:04.
         </div>
-          <a href="/vim-tips/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/mnist_on_colaboratory_using_gpu/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -194,17 +195,38 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/2018/02/09/vim-tips/" class="color-inherit dim link">
-            Vim Tips
+          <a href="/posts/visualizing&#43;tensorflow&#43;graphs/" class="color-inherit dim link">
+            Visualizing Tensorflow Graphs
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="vim-graphical-cheat-sheet">vim graphical cheat sheet</h2>
-
-<p><img src="/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg" alt="" />
-</p>
+          Using a local TensorBoard instance to visualize the graph import tensorflow as tf  Using a cloud-hosted TensorBoard instance to do the rendering # TensorFlow Graph visualizer code import numpy as np from IPython.display import clear_output, Image, display, HTML def strip_consts(graph_def, max_const_size=32): &quot;&quot;&quot;Strip large constant values from graph_def.&quot;&quot;&quot; strip_def = tf.GraphDef() for n0 in graph_def.node: n = strip_def.node.add() n.MergeFrom(n0) if n.op == 'Const': tensor = n.attr['value'].tensor size = len(tensor.tensor_content) if size &gt; max_const_size: tensor.
         </div>
-          <a href="/2018/02/09/vim-tips/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/visualizing&#43;tensorflow&#43;graphs/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="color-inherit dim link">
+            Get set go with Tensorflow
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Pip installation !pip install tensorflow!pip install tensorflow-gpu  Anaconda Installation !conda install -c conda-forge tensorflow!conda install -c anaconda tensorflow-gpu  Basic Usage 1. Building the graph import tensorflow as tf matrix1 = tf.constant([[3., 3.]]) matrix2 = tf.constant([[2.],[2.]]) print(matrix1, matrix2) product = tf.matmul(matrix2, matrix1)  Tensor(&quot;Const_4:0&quot;, shape=(1, 2), dtype=float32) Tensor(&quot;Const_5:0&quot;, shape=(2, 1), dtype=float32)  2.Launching the graph in a session Method 1 # Launch the default graph. sess = tf.Session() result = sess.
+        </div>
+          <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -215,6 +237,41 @@
         
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/vim-tips/" class="link black dim">
+              My Third Post
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/my-second-post/" class="link black dim">
+              My Second Post
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/my-first-post/" class="link black dim">
+              My First Post
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/2018/02/09/vim-tips/" class="link black dim">
+              Vim Tips
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>
