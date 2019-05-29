@@ -18,6 +18,10 @@
   </url>
   
   <url>
+    <loc>https://machinelearning147.github.io/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://machinelearning147.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -32,10 +36,6 @@
     <loc>https://machinelearning147.github.io/</loc>
     <lastmod>2018-09-10T13:24:01+05:30</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://machinelearning147.github.io/about/</loc>
   </url>
   
   <url>
