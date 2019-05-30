@@ -40,7 +40,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-09-10T13:24:01&#43;05:30"/>
+<meta property="og:updated_time" content="2019-05-30T10:25:40&#43;05:30"/>
 
 
 
@@ -167,6 +167,31 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/paraboloid_function_optimization/" class="color-inherit dim link">
+            Paraboloid_Function_Optimization
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          #import required packages from IPython.display import Image import numpy as np import plotly.plotly as py import plotly.graph_objs as go  url_eqn = 'https://wikimedia.org/api/rest_v1/media/math/render/svg/9fe43b236cfd731febae18c507782b7d33ac33e5' url_img = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Max_paraboloid.svg/700px-Max_paraboloid.svg.png'  Image(url=url_img)  $$f(x,y) = -(x^2 + y^2) + 4$$
+def paraboloid(x,y): return -(x**2 + y**2) + 4  s = np.linspace(-10,10, 240) t = np.linspace(-10,10, 240) tGrid, sGrid = np.meshgrid(s, t) x = tGrid y = sGrid z = paraboloid(x,y)  def plot_3dfunc(x,y,z, filename, title = None): surface = go.
+        </div>
+          <a href="/posts/paraboloid_function_optimization/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/mnist_on_colaboratory_using_gpu/" class="color-inherit dim link">
             MNIST using GPU: Tesla K80 on ColabResearch
             </a>
@@ -211,32 +236,25 @@ device_lib.list_local_devices()  [name: &quot;/device:CPU:0&quot; device_type: &
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="color-inherit dim link">
-            Get set go with Tensorflow
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Pip installation !pip install tensorflow!pip install tensorflow-gpu  Anaconda Installation !conda install -c conda-forge tensorflow!conda install -c anaconda tensorflow-gpu  Basic Usage 1. Building the graph import tensorflow as tf matrix1 = tf.constant([[3., 3.]]) matrix2 = tf.constant([[2.],[2.]]) print(matrix1, matrix2) product = tf.matmul(matrix2, matrix1)  Tensor(&quot;Const_4:0&quot;, shape=(1, 2), dtype=float32) Tensor(&quot;Const_5:0&quot;, shape=(2, 1), dtype=float32)  2.Launching the graph in a session Method 1 # Launch the default graph. sess = tf.Session() result = sess.
-        </div>
-          <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/get&#43;set&#43;go&#43;-&#43;tensorflow/" class="link black dim">
+              Get set go with Tensorflow
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>

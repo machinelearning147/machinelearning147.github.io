@@ -6,10 +6,20 @@
     <description>Recent content on Shravan Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Sep 2018 13:24:01 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 10:25:40 +0530</lastBuildDate>
     
 	<atom:link href="https://machinelearning147.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paraboloid_Function_Optimization</title>
+      <link>https://machinelearning147.github.io/posts/paraboloid_function_optimization/</link>
+      <pubDate>Thu, 30 May 2019 10:25:40 +0530</pubDate>
+      
+      <guid>https://machinelearning147.github.io/posts/paraboloid_function_optimization/</guid>
+      <description>#import required packages from IPython.display import Image import numpy as np import plotly.plotly as py import plotly.graph_objs as go  url_eqn = &#39;https://wikimedia.org/api/rest_v1/media/math/render/svg/9fe43b236cfd731febae18c507782b7d33ac33e5&#39; url_img = &#39;https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Max_paraboloid.svg/700px-Max_paraboloid.svg.png&#39;  Image(url=url_img)  $$f(x,y) = -(x^2 + y^2) + 4$$
+def paraboloid(x,y): return -(x**2 + y**2) + 4  s = np.linspace(-10,10, 240) t = np.linspace(-10,10, 240) tGrid, sGrid = np.meshgrid(s, t) x = tGrid y = sGrid z = paraboloid(x,y)  def plot_3dfunc(x,y,z, filename, title = None): surface = go.</description>
+    </item>
     
     <item>
       <title>MNIST using GPU: Tesla K80 on ColabResearch</title>
